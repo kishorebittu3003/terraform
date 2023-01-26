@@ -1,0 +1,10 @@
+region            = "us-west-2"
+vpc_name          = "module_vpc"
+my_vpc            = "10.0.0.0/16"
+pub_sub_cidrs     = ["10.0.0.0/24","10.0.1.0/24","10.0.2.0/24" ]
+pvt_sub_cidrs     = ["10.0.3.0/24","10.0.4.0/24","10.0.5.0/24"]
+az_zones          = ["us_west_2a","us_west_2b","us_west_2c","us_west_2d"]
+db_name           = "bittu_db"
+ami_id            = "ami-017fecd1353bcc96e"
+instance_type     = "t2.micro"
+//password          = ["bittu"]
